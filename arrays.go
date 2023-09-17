@@ -13,7 +13,7 @@ func main() {
 
     fmt.Println("len:", len(a))
 
-    b := [5]int{1, 2, 3, 4, 5}
+    b := [6]int{1, 2, 3, 4, 5,6}
     fmt.Println("dcl:", b)
 
     var twoD [2][3]int
@@ -22,5 +22,6 @@ func main() {
             twoD[i][j] = i + j
         }
     }
+	
     fmt.Println("2d: ", twoD)
 }
